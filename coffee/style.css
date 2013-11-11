@@ -432,11 +432,11 @@ html[xmlns] .clearfix {
 /*LOL SITE CSS NOW */
 @font-face {
     font-family: 'airplaneregular';
-    src: url('airplane-webfont.eot');
-    src: url('airplane-webfont.eot?#iefix') format('embedded-opentype'),
-         url('airplane-webfont.woff') format('woff'),
-         url('airplane-webfont.ttf') format('truetype'),
-         url('airplane-webfont.svg#airplaneregular') format('svg');
+    src: url('./type/airplane-webfont.eot');
+    src: url('./type/airplane-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./type/airplane-webfont.woff') format('woff'),
+         url('./type/airplane-webfont.ttf') format('truetype'),
+         url('./type/airplane-webfont.svg#airplaneregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -444,11 +444,11 @@ html[xmlns] .clearfix {
 
 @font-face {
     font-family: 'wisdom_script_airegular';
-    src: url('wisdom_script-webfont.eot');
-    src: url('wisdom_script-webfont.eot?#iefix') format('embedded-opentype'),
-         url('wisdom_script-webfont.woff') format('woff'),
-         url('wisdom_script-webfont.ttf') format('truetype'),
-         url('wisdom_script-webfont.svg#wisdom_script_airegular') format('svg');
+    src: url('./type/wisdom_script-webfont.eot');
+    src: url('./type/wisdom_script-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./type/wisdom_script-webfont.woff') format('woff'),
+         url('./type/wisdom_script-webfont.ttf') format('truetype'),
+         url('./type/wisdom_script-webfont.svg#wisdom_script_airegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -461,7 +461,7 @@ text-align: center;
 padding:0em;
 background-color: rgba(35,11,3,1); 
 }
-header{background-image: url("./images/coffee-bean-extract1.jpg");
+header{background: url("./images/coffee-bean-extract1.jpg") no-repeat fixed center;
 margin-top: 0em;}
 #title{margin-top:0px;}
 #wisdom{font-family: 'wisdom_script_airegular';color:rgba(206,187,153,1);}
@@ -476,7 +476,8 @@ margin-top: 0em;}
  width:11%;
 }
   .headline{font-size:100;
-  background-color:white;}
+  background-color:white;
+color:rgba(59,35,19,1);}
 
 a{color:rgba(206,187,153,1);}
 ul li{display: inline;}

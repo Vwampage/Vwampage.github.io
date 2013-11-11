@@ -433,12 +433,12 @@ html[xmlns] .clearfix {
 /*FONTS*/
 
 @font-face {
-    font-family: 'league_gothiccondensed_italic';
-    src: url('./type/leaguegothic-condenseditalic-webfont.eot');
-    src: url('./type/leaguegothic-condenseditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./type/leaguegothic-condenseditalic-webfont.woff') format('woff'),
-         url('./type/leaguegothic-condenseditalic-webfont.ttf') format('truetype'),
-         url('./type/leaguegothic-condenseditalic-webfont.svg#league_gothiccondensed_italic') format('svg');
+    font-family: 'bariol_boldbold_italic';
+    src: url('bariol_bold_italic-webfont.eot');
+    src: url('bariol_bold_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bariol_bold_italic-webfont.woff') format('woff'),
+         url('bariol_bold_italic-webfont.ttf') format('truetype'),
+         url('bariol_bold_italic-webfont.svg#bariol_boldbold_italic') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -448,12 +448,12 @@ html[xmlns] .clearfix {
 
 
 @font-face {
-    font-family: 'league_gothicCnRg';
-    src: url('./type/leaguegothic-condensedregular-webfont.eot');
-    src: url('./type/leaguegothic-condensedregular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./type/leaguegothic-condensedregular-webfont.woff') format('woff'),
-         url('./type/leaguegothic-condensedregular-webfont.ttf') format('truetype'),
-         url('./type/leaguegothic-condensedregular-webfont.svg#league_gothicCnRg') format('svg');
+    font-family: 'bariollight_italic';
+    src: url('bariol_light_italic-webfont.eot');
+    src: url('bariol_light_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bariol_light_italic-webfont.woff') format('woff'),
+         url('bariol_light_italic-webfont.ttf') format('truetype'),
+         url('bariol_light_italic-webfont.svg#bariollight_italic') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -463,12 +463,12 @@ html[xmlns] .clearfix {
 
 
 @font-face {
-    font-family: 'league_gothicitalic';
-    src: url('./type/leaguegothic-italic-webfont.eot');
-    src: url('./type/leaguegothic-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./type/leaguegothic-italic-webfont.woff') format('woff'),
-         url('./type/leaguegothic-italic-webfont.ttf') format('truetype'),
-         url('./type/leaguegothic-italic-webfont.svg#league_gothicitalic') format('svg');
+    font-family: 'bariolthin_italic';
+    src: url('./type/bariol_thin_italic-webfont.eot');
+    src: url('./type/bariol_thin_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./type/bariol_thin_italic-webfont.woff') format('woff'),
+         url('./type/bariol_thin_italic-webfont.ttf') format('truetype'),
+         url('./type/bariol_thin_italic-webfont.svg#bariolthin_italic') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -478,96 +478,92 @@ html[xmlns] .clearfix {
 
 
 @font-face {
-    font-family: 'league_gothicregular';
-    src: url('./type/leaguegothic-regular-webfont.eot');
-    src: url('./type/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./type/leaguegothic-regular-webfont.woff') format('woff'),
-         url('./type/leaguegothic-regular-webfont.ttf') format('truetype'),
-         url('./type/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-family: 'bariolregular_italic';
+    src: url('./type/bariol_regular_italic-webfont.eot');
+    src: url('./type/bariol_regular_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./type/bariol_regular_italic-webfont.woff') format('woff'),
+         url('./type/bariol_regular_italic-webfont.ttf') format('truetype'),
+         url('./type/bariol_regular_italic-webfont.svg#bariolregular_italic') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 
-/*/FONTS*/
 
 
-#title{font-size:50pt;
-width:50%;
-float:left;
-margin-top: 0em;
-margin-bottom: 0em;
-padding-bottom: 0px;
-padding-top:10px;
-margin-bottom: 0px;
-padding-left: 2.5%;
-}
 
-header{
-  width: 100%;
-border-bottom: solid 2px black;
-clear:both;
+@font-face {
+    font-family: 'bariol_boldbold';
+    src: url('./type/bariol_bold-webfont.eot');
+    src: url('./type/bariol_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./type/bariol_bold-webfont.woff') format('woff'),
+         url('./type/bariol_bold-webfont.ttf') format('truetype'),
+         url('./type/bariol_bold-webfont.svg#bariol_boldbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
 }
-nav ul{
-  list-style: none; 
-  text-decoration: none; 
-  float:right;
-  width:25%;
-  padding-top: 45px;
-  padding-bottom: 0px;
-}
-nav ul li{
-  display:inline;
-}
 
-nav ul a{
-  color:black;
-}
-body{
-  font-family:'league_gothicregular', Impact;
-  text-align: left;
+
+
+
+@font-face {
+    font-family: 'bariol_regularregular';
+    src: url('./type/bariol_regular-webfont.eot');
+    src: url('./type/bariol_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./type/bariol_regular-webfont.woff') format('woff'),
+         url('./type/bariol_regular-webfont.ttf') format('truetype'),
+         url('./type/bariol_regular-webfont.svg#bariol_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
-#container{clear:both;}
-  h1.date{
-    font-size:13pt;
-    margin:0px;
-  }
 
-  h2{
-    font-size:40pt;
-    margin:0px;
-  }
 
-li{
-  margin-right: 5px;
+
+@font-face {
+    font-family: 'bariol_lightlight';
+    src: url('./type/bariol_light-webfont.eot');
+    src: url('./type/bariol_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./type/bariol_light-webfont.woff') format('woff'),
+         url('./type/bariol_light-webfont.ttf') format('truetype'),
+         url('./type/bariol_light-webfont.svg#bariol_lightlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
-.postmenu{
-  float:left;
-  width:20%;
-list-style: none;
-line-height: 1.8em;
-font-size: 13pt;
+
+
+
+@font-face {
+    font-family: 'bariolthin';
+    src: url('./type/bariol_thin-webfont.eot');
+    src: url('./type/bariol_thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./type/bariol_thin-webfont.woff') format('woff'),
+         url('./type/bariol_thin-webfont.ttf') format('truetype'),
+         url('./type/bariol_thin-webfont.svg#bariolthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
+
+/* END FONTS*/
+
+
+p, li{
+  font-family: 'bariol_regularregular';
 }
-
-ul li{
-  text-decoration: none;
-   float:left;
- }
-
-.main{
-   width:74%;
-    float:left;
-  }
-
-footer{
-  border-top: solid 2px black;
-  width: 100%;
-  float:left;
-clear:both;
-padding-left: 2.5%;}
-
-
+h1, h2{
+  font-family: 'bariol_lightlight';
+  text-align: center;
+  letter-spacing: 3px;
+}
+.fig{
+  display: inline-block;
+text-align: center;
+}
+section{
+  text-align: center;
+}
