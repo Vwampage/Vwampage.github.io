@@ -551,19 +551,76 @@ html[xmlns] .clearfix {
 
 /* END FONTS*/
 
-
+nav{
+  text-align: center;
+}
+ul{
+ list-style: none;
+}
+li{
+  display: inline;
+}
 p, li{
   font-family: 'bariol_regularregular';
 }
-h1, h2{
+p{
+  margin-bottom: 0em;
+}
+h1, h2, h3{
   font-family: 'bariol_lightlight';
   text-align: center;
   letter-spacing: 3px;
 }
 .fig{
   display: inline-block;
-text-align: center;
+vertical-align: top;
 }
+
+@media all and (max-width: 1200px) {
+  .fig { width: 100%; margin: 0 0 20px 0; background: blue; }
+  .fig img { width: 100%; }
+}
+
 section{
   text-align: center;
+  padding-bottom: 2em;
+  padding-top: 0em;
+  margin-bottom: 0em;
+  margin-top: 0em;
+}
+a{
+    padding-bottom: 0em;
+  padding-top: 0em;
+  margin-bottom: 0em;
+  margin-top: 0em;
+}
+h3{
+     padding-bottom: 0em;
+  padding-top: 0em;
+  margin-bottom: 0em;
+  margin-top: 0em; 
+}
+#basics{
+  background: url(images/sineorange.png) repeat-x bottom;
+  background-color: rgba(242, 166, 99, 1);
+}
+#work{
+background: url(images/sinebrown.png) repeat-x bottom;
+background-color: rgba(242, 105, 56, 1);
+}
+#photography{
+background: url(images/sinebrightred.png) repeat-x bottom;
+background-color: rgba(89, 7, 7, 1);
+}
+#graphic{
+background: url(images/sinelightbrown.png) repeat-x bottom;
+background-color: rgba(217, 30, 30, 1);
+}
+#web{
+background: url(images/sineorange.png) repeat-x bottom;
+background-color: rgba(242, 166, 99, 1);
+}
+#skills{
+background: url(images/sine.png) repeat-x bottom;
+background-color: rgba(242, 105, 56, 1);
 }
