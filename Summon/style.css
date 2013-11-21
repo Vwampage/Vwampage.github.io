@@ -434,7 +434,9 @@ html[xmlns] .clearfix {
 
 /*END FONTS*/
 body{
-  background: url(images/background.png) repeat-y;
+  background: url(images/background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 .center{
   text-align: center;
@@ -460,7 +462,7 @@ body{
 ul li figure{
   display: inline-block;
   text-align: center;
-  width:135px;
+  width:22%;
 }
 div{
 margin:auto;
@@ -472,7 +474,7 @@ h1{
 ul li figure img{
   border: 3px solid;
   border-color: red;
-  border-radius: 64px;
+  border-radius: 50em;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
