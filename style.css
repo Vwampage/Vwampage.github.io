@@ -561,13 +561,14 @@ li{
 }
 p, li, figcaption{
   font-family: 'bariol_regularregular';
+  font-size: 1.5em;
 }
 p{
   margin-bottom: 0em;
   margin-left: auto;
   margin-right: auto;
   max-width: 50%;
-  font-size: 1.2em;
+  
 }
 h1, h2, h3{
   margin-top: 0em;
@@ -612,10 +613,17 @@ a{
   padding-top: 0em;
   margin-bottom: 0em;
   margin-top: 0em;
+  font-family: 'bariol_boldbold';
+  text-decoration: none;
 }
 
-h3{
-
+h4{
+  font-family: 'bariol_lightlight';
+  font-size: 2em;
+}
+h4 a{
+  font-family: 'bariol_regularregular';
+  text-decoration: none;
 }
 header{
   background: url(images/sine165165165.png) repeat-x bottom;
