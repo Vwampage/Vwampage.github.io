@@ -634,8 +634,19 @@ header{
   margin-top: 0em; 
 }
 #basics{
-  background: url(images/sine101101101.png) repeat-x bottom;
+background: url(images/sine101101101.png) repeat-x bottom;
 background-color: rgba(165, 165, 165, 1);
+}
+#basics section{
+  display:inline-block;
+}
+#basics img{
+  width:30%;
+  display: inline-block;
+}
+#basics p{
+  width: 60%;
+  display: inline-block;
 }
 #experience{
 background: url(images/sine242242242.png) repeat-x bottom;

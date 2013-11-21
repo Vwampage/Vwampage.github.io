@@ -431,18 +431,63 @@ html[xmlns] .clearfix {
 /* BEGIN SITE CSS */
 
 /*FONTS*/
+
 /*END FONTS*/
+body{
+  background: url(images/background.png) repeat-y;
+}
+.center{
+  text-align: center;
+}
+#center{
+  text-align: center;
+  display: inline-block;
+}
+#ribbon{
+  width:100%;
+    margin-top: 0em;
+  margin-bottom: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+}
+#hand{
+  width:30%;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+}
 ul li figure{
   display: inline-block;
-  width: 100px;
+  text-align: center;
+  width:135px;
+}
+div{
+margin:auto;
+border: solid 3px blue;
+}
+h1{
+  text-align: center;
 }
 ul li figure img{
   border: 3px solid;
   border-color: red;
   border-radius: 64px;
   width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 } 
+ul li figure figcaption{
+  text-align: center;
+}
 ul li{
   display:inline;
   list-style: none;
 }
+ul{
+  list-style: none; 
+}
+ul li p{
+  display: inline;
+}
+
