@@ -3,16 +3,19 @@
 <head>
 		<link href="style.css" rel="Stylesheet" type="text/css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 	<title>Summon</title>
 </head>
 <body>
 <section class="topBar">
 <!-- <h1>The Crew</h1> -->
- <p class="center"><img id="ribbon" src="images/CrewBanner.png" alt="ribbon"></p>
- <p class="center"><img id="hand" src="images/pointinghand.png" alt="hand"></p>
+ <p class="banner"><img id="ribbon" src="images/CrewBanner.png" alt="ribbon"></p>
 </section>
+<div>
+	<p class="hand"><img src="images/pointinghand.png" alt="hand"></p>
+</div>
 <section>
-	<div>
+	<div class="droppable">
 	<ul>
 		<li>
 			<figure>
@@ -91,12 +94,14 @@
 </section>
 <section>
 	<ul>
-		<li><p class="center"><img src="images/128-13.jpg" alt="OtherName1"></p></li>
-		<li><p class="center"><img src="images/128-14.jpg" alt="OtherName2"></p></li>
-		<li><p class="center"><img src="images/128-15.jpg" alt="OtherName3"></p></li>
-		<li><p class="center"><img src="images/128-16.jpg" alt="OtherName4"></p></li>
-		<li><p class="center"><img src="images/128-17.jpg" alt="OtherName5"></p></li>
-		<li><p class="center"><img src="images/128-5.jpg" alt="OtherName6"></p></li>
+		<li><p class="center"><img class="draggable" src="images/128-13.jpg" alt="OtherName1"></p></li>
+		<li><p class="center"><img class="draggable" src="images/128-14.jpg" alt="OtherName2"></p></li>
+		<li><p class="center"><img class="draggable" src="images/128-15.jpg" alt="OtherName3"></p></li>
+		<li><p class="center"><img class="draggable" src="images/128-16.jpg" alt="OtherName4"></p></li>
+		<li><p class="center"><img class="draggable" src="images/128-17.jpg" alt="OtherName5"></p></li>
+		<li><p class="center"><img class="draggable" src="images/128-5.jpg" alt="OtherName6"></p></li>
 	</ul>
 </section>
+<script type="text/javascript" src="js/ui/jquery-ui.js"></script>
+<script type="text/javascript" src="js/dragonDrop.js"></script>
 </body>
