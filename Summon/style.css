@@ -12,7 +12,7 @@ article,
 aside,
 details,
 figcaption,
-figure,
+article,
 footer,
 header,
 hgroup,
@@ -248,7 +248,7 @@ svg:not(:root) {
  * Address margin not present in IE 8/9 and Safari 5.
  */
 
-figure {
+article {
     margin: 0;
 }
 
@@ -464,8 +464,11 @@ width:100%;
   padding-top: 0em;
   padding-bottom: 0em;
 }
- 
-ul li figure{
+.summoned{
+  margin-top: -5em;
+  padding-top: -5em;
+}
+ul li article{
   display: inline-block;
   text-align: center;
   width:22%;
@@ -478,7 +481,7 @@ z-index: 99;
 h1{
   text-align: center;
 }
-ul li figure img{
+ul li article img{
   border: 3px solid;
   border-color: red;
   border-radius: 50em;
@@ -486,7 +489,7 @@ ul li figure img{
   margin-left: auto;
   margin-right: auto;
 } 
-ul li figure figcaption{
+ul li article p{
   text-align: center;
 }
 ul li{

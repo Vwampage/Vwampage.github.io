@@ -611,6 +611,8 @@ section{
   background-color: white;
   border-radius: 2em;
   margin-bottom: 1em;
+  margin-left: .5em;
+  margin-right: .5em;
 }
 img.summon{
   width:44%;
@@ -623,8 +625,7 @@ a{
   font-family: 'bariol_boldbold';
   text-decoration: none;
 }
-#about{
-}
+
 h4{
   font-family: 'bariol_lightlight';
   font-size: 2em;
@@ -664,15 +665,53 @@ background-color: rgba(101, 101, 101, 1);
 
 nav{display:none;}
 
-
-@media all and (max-width: 640px) {
-  section{
-  }
+@media all and (max-width: 1024px) {
   .fig{
+  width: 85%;
+}
+.fig img{
+  width: 38%;
+  float:left;
+}
+.fig p{
+  width:57%;
+  float:right;
+}
+img.summon{
+  width: 18%;
+}
+#shotContainer{
+  width:38%;
+  height:auto;
+}
+
+#about{
+  width:57%;
+}
+#headshot{
+  width:100%;
+  max-width: 97%;
+}
+#about p{
+  width:100%;
+}
+}
+@media all and (max-width: 640px) {
+  .fig{
+
     width: 100%;
     height: auto;
   }
   .fig img{
+    width: 100%;
+    float:none;
+  }
+  img.summon{
+  width: 44%;
+}
+  .fig p{
+    width: 100%;
+    float: none;
   }
   h1{
     font-size: 4em;
@@ -680,5 +719,4 @@ nav{display:none;}
   p{
     max-width: 100%;
   }
-
 }
