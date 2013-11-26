@@ -709,6 +709,9 @@ img.summon{
   img.summon{
   width: 44%;
 }
+#about{
+  width:100%;
+}
   .fig p{
     width: 100%;
     float: none;
