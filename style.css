@@ -699,7 +699,7 @@ img.summon{
 @media all and (max-width: 640px) {
   .fig{
 
-    width: 100%;
+    width: 90%;
     height: auto;
   }
   .fig img{
