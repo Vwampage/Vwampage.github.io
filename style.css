@@ -722,4 +722,7 @@ img.summon{
   p{
     max-width: 100%;
   }
+  #shotContainer{
+    display: none;
+  }
 }
