@@ -465,8 +465,8 @@ width:100%;
   padding-bottom: 0em;
 }
 .summoned{
-  margin-top: -5em;
-  padding-top: -5em;
+  border: none;
+  vertical-align: top;
 }
 ul li article{
   display: inline-block;
@@ -475,20 +475,18 @@ ul li article{
 }
 div{
 margin:auto;
-border: solid 3px blue;
-z-index: 99;
 }
 h1{
   text-align: center;
 }
 ul li article img{
-  border: 3px solid;
+  border: .3em solid;
   border-color: red;
   border-radius: 50em;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-} 
+}
 ul li article p{
   text-align: center;
 }

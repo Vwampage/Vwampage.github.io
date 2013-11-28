@@ -715,12 +715,17 @@ img.summon{
   .fig p{
     width: 85%;
     float: none;
+    text-align: center;
+    margin-left: .5em;
+    margin-right: .5em;
   }
   h1{
     font-size: 4em;
   }
   p{
-    max-width: 100%;
+    width: 85%;
+        margin-left: .5em;
+    margin-right: .5em;
   }
   #shotContainer{
     display: none;
