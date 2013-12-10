@@ -3,6 +3,10 @@
 <head>
 		<link href="style.css" rel="Stylesheet" type="text/css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<!--
+			Use this one only when you actually have internet.
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script> -->
+		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 	<title>Summon</title>
 </head>
 <body>
@@ -11,94 +15,55 @@
  <p class="banner"><img id="ribbon" src="images/CrewBanner.png" alt="ribbon"></p>
 </section>
 <div>
-	<p class="hand"><img id="hand" src="images/pointinghand.png" alt="hand"></p>
+	<p class="hand"><img src="images/pointinghand.png" alt="hand"></p>
 </div>
 <section>
-	<div>
-	<ul>
+	<div class="include">
+	<ul class="dropzone">
 		<li>
-			<figure>
-  				<img src="images/128.jpg" alt="PersonName1">
-  				<figcaption>Summoning</figcaption>
-			</figure>
+			<article>
+  				<img class="draggable" class="profilePhoto" src="http://placehold.it/580x200" alt="PersonName1">  				
+			</article>
 		</li>
-				<li>
-			<figure>
-  				<img src="images/128-2.jpg" alt="PersonName1">
-  				<figcaption>Summoning</figcaption>
-			</figure>
+		<li>
+			<article class="l2">
+  				<img class="draggable" class="profilePhoto" src="http://placehold.it/580x200" alt="PersonName1">  				
+			</article>
 		</li>
-				<li>
-			<figure>
-  				<img src="images/128-3.jpg" alt="PersonName1">
-  				<figcaption>Summoning</figcaption>
-			</figure>
+		<li>
+			<article>
+  				<img class="draggable" class="profilePhoto" src="http://placehold.it/580x200" alt="PersonName1">  				
+			</article>
 		</li>
-				<li>
-			<figure>
-  				<img src="images/128-4.jpg" alt="PersonName1">
-  				<figcaption>Summoning</figcaption>
-			</figure>
+		<li>
+			<article>
+  				<img class="draggable" class="profilePhoto" src="http://placehold.it/580x200" alt="PersonName1">  				
+			</article>
 		</li>
-				<li>
-			<figure>
-  				<img src="images/128-5.jpg" alt="PersonName1">
-  				<figcaption>Summoning</figcaption>
-			</figure>
+			<li>
+			<article>
+  				<img class="draggable" class="profilePhoto" src="http://placehold.it/580x200" alt="PersonName1">  				
+			</article>
 		</li>
-				<li>
-			<figure>
-  				<img src="images/128-6.jpg" alt="PersonName1">
-  				<figcaption>Summoning</figcaption>
-			</figure>
-		</li>
-				<li>
-			<figure>
-  				<img src="images/128-7.jpg" alt="PersonName1">
-  				<figcaption>Summoning</figcaption>
-			</figure>
-		</li>
-				<li>
-			<figure>
-  				<img src="images/128-8.jpg" alt="PersonName1">
-  				<figcaption>Summoning</figcaption>
-			</figure>
-		</li>
-				<li>
-			<figure>
-  				<img src="images/128-9.jpg" alt="PersonName1">
-  				<figcaption>Summoning</figcaption>
-			</figure>
-		</li>
-				<li>
-			<figure>
-  				<img src="images/128-10.jpg" alt="PersonName1">
-  				<figcaption>Summoning</figcaption>
-			</figure>
-		</li>
-				<li>
-			<figure>
-  				<img src="images/128-11.jpg" alt="PersonName1">
-  				<figcaption>Summoning</figcaption>
-			</figure>
-		</li>
-				<li>
-			<figure>
-  				<img src="images/128-12.jpg" alt="PersonName1">
-  				<figcaption>Summoning</figcaption>
-			</figure>
+		<li>
+			<article>
+  				<img class="draggable" class="profilePhoto" src="http://placehold.it/580x200" alt="PersonName1">  				
+			</article>
 		</li>	
 	</ul>
 </div>
 </section>
 <section>
-	<ul>
-		<li><p class="center"><img src="images/128-13.jpg" alt="OtherName1"></p></li>
-		<li><p class="center"><img src="images/128-14.jpg" alt="OtherName2"></p></li>
-		<li><p class="center"><img src="images/128-15.jpg" alt="OtherName3"></p></li>
-		<li><p class="center"><img src="images/128-16.jpg" alt="OtherName4"></p></li>
-		<li><p class="center"><img src="images/128-17.jpg" alt="OtherName5"></p></li>
-		<li><p class="center"><img src="images/128-5.jpg" alt="OtherName6"></p></li>
+	<ul class="exclude">
+		<li><p class="center"><img class="draggable" src="images/128-13.jpg" alt="OtherName1"></p></li>
+		<li><p class="center"><img class="draggable" src="images/128-14.jpg" alt="OtherName2"></p></li>
+		<li><p class="center"><img class="draggable" src="images/128-15.jpg" alt="OtherName3"></p></li>
+		<li><p class="center"><img class="draggable" src="images/128-16.jpg" alt="OtherName4"></p></li>
+		<li><p class="center"><img class="draggable" src="images/128-17.jpg" alt="OtherName5"></p></li>
+		<li><p class="center"><img class="draggable" src="images/128-5.jpg" alt="OtherName6"></p></li>
 	</ul>
 </section>
+
+<script type="text/javascript" src="js/ui/jquery-ui.js"></script>
+<script type="text/javascript" src="js/dragonDrop.js"></script>
 </body>
