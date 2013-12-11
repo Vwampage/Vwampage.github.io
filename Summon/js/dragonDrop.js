@@ -2,35 +2,35 @@ $('.draggable').draggable();
 $('.include').droppable();
 $('.exclude').droppable();
 $('.include').on("drop", function(event, ui){
-		$(this).css("background-color", "pink");
 		var newimg = $("<img>");
 		ui.draggable.hide();
+		newimg.attr("class", "draggable ui-draggable");
 		newimg.attr("src", ui.draggable.context.src);
 		console.log(ui.draggable.context.src);
-		var newarticle = $("<article>").append(newimg);
-		var newli = $("<li>").append(newarticle);
 
+		// $(newimg).class += "draggable";
+		// $(newimg).addclass("draggable");
+		// var newarticle = $("<article>").append(newimg);
+		// var newli = $("<li>").append(newarticle);
 		//newimg =newimg.wrap("<article></article>");
 		//newimg =newimg.wrap("<li></li>");
-		$('.dropzone').append(newli);	
+		$('.dropzone').append(newimg);	
 	});
-//$('.dropzone').add('li')
-//var person = 
 
 $('.exclude').on("drop", function(event, ui){
-		$(this).css("background-color", "pink");
-		var newimg = $("<img>");
 		ui.draggable.hide();
+		var newimg = $("<img>");
+		newimg.attr("class", "draggable ui-draggable");
 		newimg.attr("src", ui.draggable.context.src);
 		console.log(ui.draggable.context.src);
-		var newarticle = $("<article>").append(newimg);
-		var newli = $("<li>").append(newarticle);
-
+		// $(newimg).addclass("draggable");
+		// var newarticle = $("<article>").append(newimg);
+		// var newli = $("<li>").append(newarticle);
 		//newimg =newimg.wrap("<article></article>");
 		//newimg =newimg.wrap("<li></li>");
-		$('.dropzone').append(newli);
-
-
-	
+		$('.dropplace').append(newimg);	
 	});
 
+$('.dropzone').change(function(){
+
+})

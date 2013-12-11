@@ -473,7 +473,7 @@ img.summoned{
 ul li article{
   display: inline-block;
   text-align: center;
-  width:22%;
+  width:100%;
 }
 div{
 margin:auto;
@@ -485,7 +485,7 @@ ul li article img{
   border: .3em solid;
   border-color: rgba(106, 33, 32, 1);
   border-radius: 50em;
-  width: 80%;
+  width: 22%;
   margin-left: auto;
   margin-right: auto;
 }
