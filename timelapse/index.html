@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Time Lapse Interval Calculator</title>
+</head>
+
+<body>
+    <p>Put the time the camera will be out for in hours (use decimals).</p>
+    <input type="text" id="shootingTime"=>How long are you shooting for?</input>
+    <p>How long do you want the final video to be? (input in minutes, again, use decimals)</p>
+    <input type="text" id="targetLength"=>give me input</input>
+    <button onclick="test()">Submit</button>
+    <div id="result"><p>You should have your camera take one shot every </p><p>seconds</p></div>
+    <script>
+        function test()
+        {
+            var shootingTime = document.getElementById("shootingTime").value;
+            var targetLength = document.getElementById("targetLength").value;
+           	var shotInterval = $("<p>");
+           	shotInterval = ((shootingTime*3600)/(30*targetLength*60));
+           	$('#result').append(shotInterval);
+            
+        }
+    </script>
+</body>
+</html>
