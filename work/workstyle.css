@@ -1,0 +1,219 @@
+
+@font-face {
+    font-family: 'bariol_boldbold_italic';
+    src: url('bariol_bold_italic-webfont.eot');
+    src: url('bariol_bold_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bariol_bold_italic-webfont.woff') format('woff'),
+         url('bariol_bold_italic-webfont.ttf') format('truetype'),
+         url('bariol_bold_italic-webfont.svg#bariol_boldbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bariollight_italic';
+    src: url('bariol_light_italic-webfont.eot');
+    src: url('bariol_light_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bariol_light_italic-webfont.woff') format('woff'),
+         url('bariol_light_italic-webfont.ttf') format('truetype'),
+         url('bariol_light_italic-webfont.svg#bariollight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bariolthin_italic';
+    src: url('./type/bariol_thin_italic-webfont.eot');
+    src: url('./type/bariol_thin_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./type/bariol_thin_italic-webfont.woff') format('woff'),
+         url('./type/bariol_thin_italic-webfont.ttf') format('truetype'),
+         url('./type/bariol_thin_italic-webfont.svg#bariolthin_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bariolregular_italic';
+    src: url('./type/bariol_regular_italic-webfont.eot');
+    src: url('./type/bariol_regular_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./type/bariol_regular_italic-webfont.woff') format('woff'),
+         url('./type/bariol_regular_italic-webfont.ttf') format('truetype'),
+         url('./type/bariol_regular_italic-webfont.svg#bariolregular_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bariol_boldbold';
+    src: url('./type/bariol_bold-webfont.eot');
+    src: url('./type/bariol_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./type/bariol_bold-webfont.woff') format('woff'),
+         url('./type/bariol_bold-webfont.ttf') format('truetype'),
+         url('./type/bariol_bold-webfont.svg#bariol_boldbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bariol_regularregular';
+    src: url('./type/bariol_regular-webfont.eot');
+    src: url('./type/bariol_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./type/bariol_regular-webfont.woff') format('woff'),
+         url('./type/bariol_regular-webfont.ttf') format('truetype'),
+         url('./type/bariol_regular-webfont.svg#bariol_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bariol_lightlight';
+    src: url('./type/bariol_light-webfont.eot');
+    src: url('./type/bariol_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./type/bariol_light-webfont.woff') format('woff'),
+         url('./type/bariol_light-webfont.ttf') format('truetype'),
+         url('./type/bariol_light-webfont.svg#bariol_lightlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bariolthin';
+    src: url('./type/bariol_thin-webfont.eot');
+    src: url('./type/bariol_thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./type/bariol_thin-webfont.woff') format('woff'),
+         url('./type/bariol_thin-webfont.ttf') format('truetype'),
+         url('./type/bariol_thin-webfont.svg#bariolthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*
+Geremy says to try and absolutely position the picture and relatively position the text so that you can move it on top of the picture that way
+*/
+.contentblock{
+    width:31%;
+    position:relative;
+}
+.contentblock img{
+    vertical-align: top;
+}
+.projectdescription{
+    position: absolute;
+    bottom:5%;
+    left:2%;
+    background-color: rgba(255,255,255,.8);
+    border-radius: 1em;
+    visibility: hidden;
+}
+.contentblock:hover .projectdescription{
+    visibility: visible;
+    animation-name: pullUp;
+    -webkit-animation-name: pullUp; 
+
+    animation-duration: 0.5s;   
+    -webkit-animation-duration: 0.5s;
+
+    animation-timing-function: ease-out;    
+    -webkit-animation-timing-function: ease-out;    
+
+    transform-origin: 50% 100%;
+    -ms-transform-origin: 50% 100%;
+    -webkit-transform-origin: 50% 100%;         
+}
+
+@keyframes pullUp {
+    0% {
+        transform: scaleY(0.1);
+    }
+    40% {
+        transform: scaleY(1.02);
+    }
+    60% {
+        transform: scaleY(0.98);
+    }
+    80% {
+        transform: scaleY(1.01);
+    }
+    100% {
+        transform: scaleY(0.98);
+    }               
+    80% {
+        transform: scaleY(1.01);
+    }
+    100% {
+        transform: scaleY(1);
+    }                           
+}
+
+@-webkit-keyframes pullUp {
+    0% {
+        -webkit-transform: scaleY(0.1);
+    }
+    40% {
+        -webkit-transform: scaleY(1.02);
+    }
+    60% {
+        -webkit-transform: scaleY(0.98);
+    }
+    80% {
+        -webkit-transform: scaleY(1.01);
+    }
+    100% {
+        -webkit-transform: scaleY(0.98);
+    }               
+    80% {
+        -webkit-transform: scaleY(1.01);
+    }
+    100% {
+        -webkit-transform: scaleY(1);
+    }       
+}
+
+.row3{
+    background-color: rgba(42,42,42,1)
+}
+.contentblock img{
+    position:relative;
+}
+
+@media all and (max-width: 640px) {
+  .contentblock, .twothirds, .onethird, .onethirdright {
+    width:100%;
+  }
+  .projectdescription{
+    visibility:visible;
+  }
+.gutters{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+}

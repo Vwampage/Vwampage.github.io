@@ -1,0 +1,194 @@
+
+@font-face {
+    font-family: 'bariol_boldbold_italic';
+    src: url('bariol_bold_italic-webfont.eot');
+    src: url('bariol_bold_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bariol_bold_italic-webfont.woff') format('woff'),
+         url('bariol_bold_italic-webfont.ttf') format('truetype'),
+         url('bariol_bold_italic-webfont.svg#bariol_boldbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bariollight_italic';
+    src: url('bariol_light_italic-webfont.eot');
+    src: url('bariol_light_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bariol_light_italic-webfont.woff') format('woff'),
+         url('bariol_light_italic-webfont.ttf') format('truetype'),
+         url('bariol_light_italic-webfont.svg#bariollight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bariolthin_italic';
+    src: url('./type/bariol_thin_italic-webfont.eot');
+    src: url('./type/bariol_thin_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./type/bariol_thin_italic-webfont.woff') format('woff'),
+         url('./type/bariol_thin_italic-webfont.ttf') format('truetype'),
+         url('./type/bariol_thin_italic-webfont.svg#bariolthin_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bariolregular_italic';
+    src: url('./type/bariol_regular_italic-webfont.eot');
+    src: url('./type/bariol_regular_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./type/bariol_regular_italic-webfont.woff') format('woff'),
+         url('./type/bariol_regular_italic-webfont.ttf') format('truetype'),
+         url('./type/bariol_regular_italic-webfont.svg#bariolregular_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bariol_boldbold';
+    src: url('./type/bariol_bold-webfont.eot');
+    src: url('./type/bariol_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./type/bariol_bold-webfont.woff') format('woff'),
+         url('./type/bariol_bold-webfont.ttf') format('truetype'),
+         url('./type/bariol_bold-webfont.svg#bariol_boldbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bariol_regularregular';
+    src: url('./type/bariol_regular-webfont.eot');
+    src: url('./type/bariol_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./type/bariol_regular-webfont.woff') format('woff'),
+         url('./type/bariol_regular-webfont.ttf') format('truetype'),
+         url('./type/bariol_regular-webfont.svg#bariol_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bariol_lightlight';
+    src: url('./type/bariol_light-webfont.eot');
+    src: url('./type/bariol_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./type/bariol_light-webfont.woff') format('woff'),
+         url('./type/bariol_light-webfont.ttf') format('truetype'),
+         url('./type/bariol_light-webfont.svg#bariol_lightlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bariolthin';
+    src: url('./type/bariol_thin-webfont.eot');
+    src: url('./type/bariol_thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./type/bariol_thin-webfont.woff') format('woff'),
+         url('./type/bariol_thin-webfont.ttf') format('truetype'),
+         url('./type/bariol_thin-webfont.svg#bariolthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.tumblr_posts{
+  width:62%;
+}
+.tumblr_post{
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 2em;
+  background-color: rgba(255,255,255,1);
+  width:100%;
+  display: block;
+  padding-bottom: 2em;
+  margin-bottom: 1em;
+  max-width: 42em;
+}
+.tumblr_post p,.tumblr_title{
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.photoset{
+margin-left: 5%;
+margin-top: 5%;
+}
+.photoset_photo{
+  text-align: center;
+}
+.photoset_photo img{
+}
+.photoset, .photoset_row, .photoset_row_2{
+  width: 100%;
+}
+.tumblr_title{
+  font-size: 2.5em;
+  font-family: 'bariol_regularregular';
+}
+.tumblr_title{
+  text-align: center;
+}
+.tumblr_body img{
+width: 100%;
+text-align: center;
+}
+.read_more_container{
+width:100%;
+}
+.read_more_container a{
+
+}
+.tumblr_quote{
+
+}
+iframe html{
+  width:100%;
+}
+.tumblr_video{
+  width:100%;
+}
+.tumblr_quote p{
+
+}
+.tumblr_source{
+
+}
+/*This CSS for manipulating embedded Vines*/
+.vine-embed{
+  max-width: 100%;
+} 
+/*End CSS for manipulating embedded Vines*/
+
+@media all and (max-width: 1024px) {
+.tumblr_post{
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+}
+}
+@media all and (max-width: 640px) {
+}

@@ -557,19 +557,17 @@ ul{
  list-style: none;
 }
 li{
+  list-style: none;
   display: inline;
 }
-p, li{
+p{
   font-family: 'bariol_regularregular';
   font-size: 1.5em;
-}
-p{
-  margin-bottom: 0em;
-text-align: center;
+    margin-bottom: 0em;
+text-align: left;
   max-width: 100%;
-  
 }
-h1, h2, h3{
+h1, h2{
   margin-top: 0em;
   padding-top: 0em;
   font-family: 'bariol_lightlight';
@@ -580,50 +578,20 @@ h1{
   font-size: 5em;
 }
 h3{
-  font-size: 3em;
-  padding-bottom: 0em;
-  padding-top: 0em; 
+  font-family: 'bariol_lightlight';
+  padding-left: 3%;
+  font-size: 2em;
   margin: 0;
+  text-align: left;
 }
-
-.fig img{
-    width: 95%;
-    margin-left: .35em;
-    margin-right: .35em;
-  }
-section{
-  text-align: center;
-  padding-bottom: 2em;
-  padding-top: 0em;
-  padding-left: 0em;
-  padding-right: 0em;
-  margin: 0 auto;
-  display: block;
-}
-.fig{
-  width: 30%;
-  padding-left: .025em;
-  padding-right: .025em;
-  padding-bottom: 1.5em;
-  padding-top: 1.5em;
-  display: inline-block;
-  vertical-align: top;
-  background-color: white;
-  border-radius: 2em;
-  margin-bottom: 1em;
-  margin-left: 0em;
-  margin-right: .5em;
-}
-img.summon{
-  width:44%;
-}
-a{
+a, li{
   padding-bottom: 0em;
   padding-top: 0em;
   margin-bottom: 0em;
   margin-top: 0em;
   font-family: 'bariol_boldbold';
   text-decoration: none;
+  text-align: left;
 }
 
 h4{
@@ -642,92 +610,134 @@ header{
   margin-bottom: 0em;
   margin-top: 0em; 
 }
-#basics{
-background: url(images/sine101101101.png) repeat-x bottom;
-background-color: rgba(165, 165, 165, 1);
-}
-#experience{
-background: url(images/sine242242242.png) repeat-x bottom;
 
-background-color: rgba(101, 101, 101, 1);
+header #topbar{
+  position: fixed;
+  float:top;
+  background-color: rgba(0,0,0,0.7);
+  width: 100%;
+  padding-right:3%;
+  padding-left:3%;
 }
-#graphic{
-background: url(images/sine165165165.png) repeat-x bottom;
-  background-color: rgba(242, 242, 242, 1);  
-}
-#photography{
-background: url(images/sine101101101.png) repeat-x bottom;
-background-color: rgba(165, 165, 165, 1);
-}
-#contact{
-background-color: rgba(101, 101, 101, 1);
-}
-
-nav{display:none;}
-
-@media all and (max-width: 1024px) {
-  .fig{
-  width: 85%;
-}
-.fig img{
-  width: 38%;
+#nameline{
+  color: rgba(255,255,255,1);
   float:left;
+  font-size: 1.1em;
+  letter-spacing: .1em;
+  font-family: 'bariol_boldbold';
+  max-width:7.5em;
+  position:relative;
 }
-.fig p{
-  width:57%;
+nav ul{
+  max-width:63%;
   float:right;
+  padding-right: 5%;
 }
-img.summon{
-  width: 18%;
+nav ul li{
+  color:rgba(255,255,255,1);
+  font-size: 1.1em;
+  letter-spacing: .1em;
 }
-#shotContainer{
-  width:38%;
-  height:auto;
+nav ul li a{
+  color:rgba(255,255,255,1);
+}
+#spacemaker{
+  margin-top: 0;
+  padding-top: 0;
+  color: rgba(0,0,0,0);
+  margin-bottom: 1em;
+}
+#pagetitle{
+  font-family: 'bariol_regularregular';
+  font-size: 2em;
+}
+.threethirds{
+  width: 100%;
+}
+.twothirds{
+  width:64%;
+}
+.onethird{
+  width:32%;
+}
+.onethirdright{
+ width:32%;
+}
+.contentblock{
+  background-color: rgba(255,255,255,1);
+  border-radius: 2em;
+  display: inline-block;
+  margin:0.5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  vertical-align: text-top;
+}
+.imgfix{
+  text-align: center;
+}
+.contentblock img{
+  max-width: 90%;
+  padding: 5%;
+}
+.contentblock li{
+display:inline-block;
+width:48%;
+margin-left: 0;
+padding-left: 0;
 }
 
-#about{
-  width:57%;
-}
-#headshot{
-  width:100%;
-  max-width: 97%;
-}
-#about p{
+.row1{
+  background-color: rgba(165,165,165,1);
   width:100%;
 }
+.row2{
+  background-color: rgba(242,242,242,1);
+  margin-top: 0em;
+  padding-top: 0em;
+}
+.contentblock p, .contentblock h3{
+  line-height: .9em;
+  margin-top: 0;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-left: 3%;
+}
+.gutters{
+  padding:0;
+  margin:0;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+}
+.contentblock h5{
+  font-family: 'bariolregular_italic';
+  font-size: 1em;
+    margin-top: -1.5%;
+  padding-bottom: 2%;
+  margin-left: 3%;
+}
+.contactlinks{
+    font-size: 1.25em;
+    margin-left: 2%;
+}
+@media all and (max-width: 1280px) {
+
 }
 @media all and (max-width: 640px) {
-  .fig{
-
-    width: 90%;
-    height: auto;
+  #nameline{
+    display:none;
   }
-  .fig img{
-    width: 100%;
-    float:none;
+  nav ul{
+    max-width:100%;
+    margin-right: auto;
+    margin-left: auto;
+    float:center;
   }
-  img.summon{
-  width: 44%;
+  .contentblock, .twothirds, .onethird, .onethirdright {
+    width:100%;
+  }
+  
+.gutters{
+  margin-left: 5%;
+  margin-right: 5%;
 }
-#about{
-  width:100%;
-}
-  .fig p{
-    width: 85%;
-    float: none;
-    text-align: center;
-    margin-left: .5em;
-    margin-right: .5em;
-  }
-  h1{
-    font-size: 4em;
-  }
-  p{
-    width: 85%;
-        margin-left: .5em;
-    margin-right: .5em;
-  }
-  #shotContainer{
-    display: none;
-  }
 }
